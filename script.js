@@ -7,7 +7,7 @@ var todayContainer = document.querySelector('#today');
 var forecastContainer = document.querySelector('#forecast');
 var searchHistoryContainer = document.querySelector('#history');
 
-// Aditional plug-ins
+// Aditional plug-ins to use dayjs to handle time in the page
 dayjs.extend(window.dayjs_plugin_utc);
 dayjs.extend(window.dayjs_plugin_timezone);
 
